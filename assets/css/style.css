@@ -14,7 +14,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generc project styles */
+    /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
@@ -51,7 +51,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 
 }
@@ -65,14 +65,14 @@ nav {
     position: absolute;
     background-color: #ffffff;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    padding: 0 1rem;
     left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
 }
 
-/* Nav Toggle */
+/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -81,10 +81,10 @@ nav {
     display: none;
 }
 
-.nav-toggle-lable {
+.nav-toggle-label {
     font-size: 2rem;
 }
-/* Main Content */
+/* Main content */
 main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
@@ -113,11 +113,22 @@ footer {
         display: flex;
     }
 
-    #menu>li {
+    #menu > li {
         padding-left: 1rem;
     }
 
-    .nav-toggle-lable {
+    .nav-toggle-label {
         display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem; 
+    }
+
+    /* Main content */
+    main {
+        margin-top: 79px;
     }
 }
